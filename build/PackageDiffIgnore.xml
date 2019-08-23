@@ -391,6 +391,9 @@
 				<Member 
 					fullName="System.Void Uno.UI.UnoViewGroup.RemoveChildRenderTransform(Android.Views.View child)"
 					reason="Changed visibility of internal method."/>
+				<Member 
+					fullName="System.Boolean Windows.UI.Xaml.Controls.NativeListViewBase.HitCheck()"
+					reason="Not part of the UWP API."/>
 				<Member fullName="System.Void Windows.UI.Xaml.Media.RenderingEventArgs..ctor()"
 						reason="Constructor is internal on UWP" />
 			</Methods>
@@ -432,6 +435,9 @@
 				<Member 
 					fullName="System.Single Uno.UI.UnoViewGroup::TransformedTouchY()"
 					reason="Removed internal stuff."/>
+				<Member 
+					fullName="System.Boolean Windows.UI.Xaml.UIElement::IsPointerCaptured()"
+					reason="Not part of the UWP API."/>
 				<Member 
 					fullName="Android.Views.View Windows.UI.Xaml.Controls.Popup::Anchor()"
 					reason="Invalid property visibility"/>
